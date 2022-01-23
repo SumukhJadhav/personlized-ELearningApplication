@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn import *
 from sklearn import linear_model
 from sklearn import preprocessing
+from sklearn.metrics import accuracy_score
 import json 
 
 json_file = open("test.json")
@@ -35,7 +36,6 @@ x_train, x_test, y_train, y_test = model_selection.train_test_split(
 # train model
 regr = linear_model.LinearRegression()
 regr.fit(x_train, y_train)
-
 level = 0
 i = 1
 number_of_questions = 0
@@ -66,6 +66,7 @@ while i <= 5:
             a += 1
         x_test = test(ans)
         y_pred = regr.predict(x_test)
+        print("2")
         pred = round(y_pred[0])
         if pred == 0:
             level += 1
