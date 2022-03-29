@@ -94,7 +94,7 @@
   "Option 2": "B.Automatic logical unit",
   "Option 3": "C. Arithmetic logic unit  ",
   "Option 4": "D.None of these",
-  "Answers": "Arithmetic logic unit ",
+  "Answers": "Arithmetic logic unit",
   "Difficulty": 1,
   "Flag": false
  },
@@ -248,7 +248,7 @@
   "Option 2": "B.Device to publish",
   "Option 3": "C.Database to software",
   "Option 4": "D.None of these",
-  "Answers": "Desktop publishing Software ",
+  "Answers": "Desktop publishing Software",
   "Difficulty": 3,
   "Flag": false
  },
